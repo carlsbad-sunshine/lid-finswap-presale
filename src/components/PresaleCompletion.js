@@ -17,7 +17,7 @@ export default function PresaleCompletion({
       mb="40px"
       textAlign="center">
       <Text fontSize="18px" m="0" p="0" color="lid.fg">
-        To Complete FSWP Presale:
+        To Complete FNSP Presale:
       </Text>
       {!isEnded && (
         <Text fontSize="14px" m="0" p="0" color="lid.fgMed">

@@ -19,7 +19,7 @@ export default function StartTimer({ startTime, accessTime, stakingLid }) {
       mr="auto"
       textAlign="center">
       <Text fontSize={{ base: '28px', sm: '36px' }} fontWeight="bold">
-        Your FSWP Access Starts In:
+        Your FNSP Access Starts In:
       </Text>
       <CountDown expiryTimestamp={accessTime} />
       <Text>

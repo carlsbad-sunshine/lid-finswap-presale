@@ -63,7 +63,7 @@ export default function DepositForm({
         border="solid 1px"
         borderColor="lid.stroke">
         <Text fontSize={{ base: '24px', sm: '36px' }} fontWeight="bold">
-          Deposit ETH for FSWP
+          Deposit ETH for FNSP
         </Text>
         <Text fontSize="18px" color="blue.500">
           Minimum 0.01 ETH, Maximum {shortenDecimal(fromWei(cap))} ETH
@@ -72,7 +72,7 @@ export default function DepositForm({
           Your Available Max: {shortenDecimal(fromWei(availableMax))} ETH
         </Text>
         <Text fontSize="18px">
-          Estimated FSWP:{' '}
+          Estimated FNSP:{' '}
           {!val
             ? '0'
             : shortenDecimal(

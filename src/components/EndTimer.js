@@ -17,7 +17,7 @@ export default function EndTimer({ expiryTimestamp, hardcap }) {
       mr="auto"
       textAlign="center">
       <Text fontSize={{ base: '28px', sm: '36px' }} fontWeight="bold">
-        FSWP Presale ends in
+        FNSP Presale ends in
       </Text>
       <CountDown
         expiryTimestamp={expiryTimestamp == null ? new Date() : expiryTimestamp}

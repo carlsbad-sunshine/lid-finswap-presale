@@ -33,13 +33,13 @@ export default function Claimer({
         mb="20px"
         p="20px">
         <Text fontSize={{ base: '24px', sm: '36px' }} fontWeight="bold">
-          Claim Your FSWP
+          Claim Your FNSP
         </Text>
         <Text fontSize="18px" color="blue.500">
           4% released / hour
         </Text>
         <Text fontSize="18px" color="lid.fg">
-          FSWP to Claim: {shortEther(accountRedeemable)}
+          FNSP to Claim: {shortEther(accountRedeemable)}
         </Text>
         <Button
           isDisabled={accountRedeemable === '0'}
@@ -75,7 +75,7 @@ export default function Claimer({
           borderColor="lid.stroke"
           bg="lid.bg">
           <Text fontSize="18px" m="0" p="0" color="lid.fgMed">
-            Total FSWP Claimed
+            Total FNSP Claimed
           </Text>
           <Text fontSize="38px" w="100%" fontWeight="bold">
             {shortEther(accountClaimedTokens)}
@@ -89,7 +89,7 @@ export default function Claimer({
           borderColor="lid.stroke"
           bg="lid.bg">
           <Text fontSize="18px" m="0" p="0" color="lid.fgMed">
-            FSWP / Hour
+            FNSP / Hour
           </Text>
           <Text fontSize="38px" w="100%" fontWeight="bold">
             {maxShares !== '0'
@@ -115,7 +115,7 @@ export default function Claimer({
         mb="20px"
         p="20px">
         <Text fontSize="18px" color="lid.fg">
-          More FSWP available to claim in
+          More FNSP available to claim in
         </Text>
         <CountDownShort
           expiryTimestamp={

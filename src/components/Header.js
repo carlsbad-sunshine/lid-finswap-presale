@@ -20,7 +20,7 @@ export default function Header({ address, onConnect }) {
           ml="-3px">
           <Image
             src="/logo.png"
-            alt="FSWP Logo"
+            alt="FNSP Logo"
             w="auto"
             h="60px"
             display="inline-block"
@@ -34,7 +34,7 @@ export default function Header({ address, onConnect }) {
             display="inline-block"
             ml="20px"
             color="lid.brand">
-            FSWP Presale
+            FNSP Presale
           </Text>
         </Link>
         {address ? (
