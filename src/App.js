@@ -47,8 +47,8 @@ function App() {
   const [depositVal, setDepositVal] = useState('');
 
   const [state, setState] = useState({
-    startTime: Date.UTC(2020, 8, 1, 3, 45, 0, 0),
-    accessTime: Date.UTC(2020, 8, 1, 4, 0, 0, 0),
+    startTime: Date.UTC(2020, 8, 15, 3, 45, 0, 0),
+    accessTime: Date.UTC(2020, 8, 15, 4, 0, 0, 0),
     endTime: null,
     totalEth: '0',
     totalDepositors: '0',
